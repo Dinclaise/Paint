@@ -10,7 +10,8 @@ const Toolbar = (props) => {
       <button className={"toolbar__btn circle"} />
       <button className={"toolbar__btn eraser"} />
       <button className={"toolbar__btn line"} />
-      <button className={"toolbar__btn palitra"} />
+      {/* <button className={"toolbar__btn palitra"} /> */}
+      <input className={"toolbar__palitra"} type="color" />
       <button className={"toolbar__btn undo"} />
       <button className={"toolbar__btn redo"} />
       <button className={"toolbar__btn save"} />
