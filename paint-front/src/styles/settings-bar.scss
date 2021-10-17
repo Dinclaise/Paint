@@ -9,4 +9,16 @@
   width: 100%;
   box-shadow: 0px 4px 5px gray;
   top: $toolbar-height;
+
+  &__line-width {
+    margin: 0 15px;
+  }
+
+  &__fill-color {
+    margin: 0 15px;
+  }
+
+  &__stroke-color {
+    margin: 0 15px;
+  }
 }
